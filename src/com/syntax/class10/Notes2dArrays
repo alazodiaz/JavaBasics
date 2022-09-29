@@ -1,0 +1,10 @@
+
+Types of Arrays-
+
+1) One dimensional array
+
+2) Two D Arrays, can also be 3d/4d etc.
+
+2D Array-  array of arrays
+	-is a two dimensional array, specified with two Square brackets [] []
+	-can think of it in two ways: collection of rows and columns or multiple arrays

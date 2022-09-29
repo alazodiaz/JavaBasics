@@ -1,0 +1,50 @@
+Java Class 10 Recap of Class 9
+
+array-is a collection//a container object that stores and hold multiple values of the same type
+Why do we need it?
+	-when getting large data types it it easier to store large amount of data coming from different sources.
+	-saves time, easier to store when working with a lot of data
+How do we create an array and use an array?
+	-Use a square bracket [], and variable name that we want to give, create an array of integers specifying the size (number of values) 
+		also known as elements elements.
+	-Arrays are fixed in size; meaning during the runtime are static container it cannot grow or shrink 
+	-Array is called a data structure, values are stored and acressed and procced, works based on indexes
+	-Access elements using indexes
+	
+	EXAMPLE)
+	int [] nums=new int[4]; 
+	
+
+	nums[0]=10;
+	
+	System.out.println(nums[1]); //0 
+	//if we don't put a specific value data types will default into 
+	System.out.println(nums[4]); //RE: ArrayIndexOutOFBoundException:4// bc we only have 4 spaces
+	
+How to find out the size of the array?
+	nums.length --> tells how many elements (numeric value)
+	
+	//how to get all elements from an array?
+		-use FOR Loop bc we know that there will be a fixed number.
+	
+	for(int i=0; i<nums.length; i++) {
+		System.out.println(nums[i]);
+	}
+	
+	-------------------------------------------
+	Enhanced For Loop// Advanced for Loop
+	-faster
+	-works ONLY when we work with array or collection
+	-loops only one way/direction
+	
+	EXAMPLE:
+		nums[0]=10;
+		nums[1]=100;
+		
+		Start with for(), then specify which array/ collection we're working with goes on right side of : on the left side what will be each element.
+		Then print out num
+		
+		for(int num:nums){
+		System.out.println(num;
+		}
+	

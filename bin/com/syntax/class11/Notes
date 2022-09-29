@@ -1,0 +1,17 @@
+
+What is an object?
+	everything around us is an object. For example, keyboard, mouse, glass, etc.
+	objects can be defined based on how they look and how they behave. Objects in computer programming are also very similar.
+	They have state (which helps us define that object looks like) and behaviors (what that object does)
+
+
+Object Oriented Programming:
+	is just a way of writing programs (easier )
+	
+	Why we should learn OOP?
+		1) it will simplify the development of large programs.
+		2) It will help us maintain and modify the existing code
+		3) It helps us write more secure code
+		4) it helps us avoid duplicate code.
+		
+what is the syntax?

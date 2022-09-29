@@ -1,0 +1,60 @@
+Loops- a statement (repeats a block of code multiple code
+used for repetative code
+
+4 different types of loops
+1) while loop
+	int time=10;
+	if(time<12) {
+	system.out.println("good morning");
+	}
+WHILE LOOP EXAMPLE INSTEAD OF USING IF
+	while (time<12) {
+	system.out.println("good morning");
+	}
+
+	while loop syntax
+	
+	while(boolean condition) {
+		code to be repeated;
+	}
+	
+
+DO WHILE LOOP
+
+do while loop syntax
+
+do {
+	code to be repeated
+} while(boolean condition);
+
+
+while vs. do while ---> both loops executed while condition is true
+
+while loop first CHECKS condition-->if true --> executes code
+
+do while first EXECUTES code-->then checks condition
+
+
+FOR LOOP
+
+for loop syntax
+
+for (initialization; condition; increment/decrement) {
+	code to be repeated;
+}
+
+
+//Say Hello 5 times
+
+for (int i=1; 1<=5 ; i++) {
+
+	System.out.println("Hello");
+}
+
+
+WHEN TO USE EACH LOOP:
+
+1) when we know how many times to repeat a block of code--> USE FOR LOOP
+
+2) when we do not know if advance how many time to repeat block of code ---> USE WHILE OR DO WHILE
+
